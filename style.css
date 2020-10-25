@@ -1,0 +1,34 @@
+/* .counter {
+  display: flex;
+  background-color: #544f53;
+  flex-direction: row;
+} */
+* {
+  margin: 0%;
+  padding: 0%;
+  box-sizing: border-box;
+}
+
+img {
+  width: 100%;
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+.counter {
+  margin: 20px;
+  padding: 20px;
+  display: flex;
+  background-color: #544f53;
+  align-items: flex-end;
+  justify-content: space-around;
+  text-align: left;
+  height: 500px;
+}
+.box {
+  justify-content: space-between;
+  align-items: center;
+  justify-content: center;
+}
